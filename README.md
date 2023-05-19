@@ -10,7 +10,7 @@ This repo is currently pinned to [v0.19.0](https://github.com/open-telemetry/ope
 
 [![Build Check](https://github.com/open-telemetry/opentelemetry-proto/workflows/Build%20Check/badge.svg?branch=main)](https://github.com/open-telemetry/opentelemetry-proto/actions?query=workflow%3A%22Build+Check%22+branch%3Amain)
 
-This repository contains the [OTLP protocol specification](specification/otlp.md)
+This repository contains the [OTLP protocol specification](docs/specification.md)
 and the corresponding Language Independent Interface Types ([.proto files](opentelemetry/proto)).
 
 ## Language Independent Interface Types
@@ -64,7 +64,7 @@ Components marked `Stable` provide the following guarantees:
 - Service names and service package names will not change.
 - Service method names will not change. [from 1.0.0]
 - Service method parameter names will not change. [from 1.0.0]
-- Service method parameter types and return types will not change. [from 1.0.0] 
+- Service method parameter types and return types will not change. [from 1.0.0]
 - Service method kind (unary vs streaming) will not change.
 - Names of messages and enums will not change. [from 1.0.0]
 - Numbers assigned to enum choices will not change.
