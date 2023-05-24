@@ -166,9 +166,7 @@ message ScopeMetrics {
 // when the start time is truly unknown, setting StartTimeUnixNano is
 // strongly encouraged.
 message Metric {
-  reserved 4, 6, 8;
-
-  // name of the metric.
+  // name of the metric, including its DNS name prefix. It must be unique.
   string name = 1;
 
   // description of the metric, which can be used in documentation.
